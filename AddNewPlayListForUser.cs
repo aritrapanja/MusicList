@@ -29,7 +29,7 @@ namespace MusicPaylist
             }
             else if (mc.playlists.Find(x => x.id == PlaylistId) != null)
             {
-                System.Console.WriteLine($"PlayListId: {PlaylistId} is presnt. No acton will ne taken.");
+                System.Console.WriteLine($"PlayListId: {PlaylistId} is presnt. No action will be taken.");
             }
             else if (mc.users.Find(x => x.id == UserId) == null)
             {
@@ -52,9 +52,8 @@ namespace MusicPaylist
                 }
 
                 mc.playlists.Add(pl);
+                System.Console.WriteLine($"Finished sucessfully Executing change id {Id}..");
             }
-
-            System.Console.WriteLine($"End Executing change id {Id}..");
         }
     }
 }

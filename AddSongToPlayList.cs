@@ -42,9 +42,8 @@ namespace MusicPaylist
             else
             {
                 mc.playlists.Find(x => x.id == PlaylistId).song_ids.Add(SongId);
+                System.Console.WriteLine($"Finished Sucessfulyy executing change id {Id}..");
             }
-
-            System.Console.WriteLine($"End Executing change id {Id}..");
         }
     }
 }

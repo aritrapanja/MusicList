@@ -22,9 +22,8 @@
             else
             {
                 mc.playlists.RemoveAll(x => x.id == PlaylistId);
+                System.Console.WriteLine($"Finished Sucessfully executing change id {Id}..");
             }
-
-            System.Console.WriteLine($"End Executing change id {Id}..");
         }
     }
 }
