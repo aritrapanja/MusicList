@@ -35,7 +35,10 @@ $ killer-app mixtape.json changes.json output-file.json
 
     How to run:
     I have tested in UBUNTU 18.04.3
-    I used VSCode to compile and publish the exe.
+    I used VSCode to compile and publish the exe. You need .net core sdk/ runtime lib to run this.exe/
+    Download: .net Core from:
+    https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1804
+    
     Go to the published directory and run:
     $ application-name <input-file> <changes-file> <output-file>
 
